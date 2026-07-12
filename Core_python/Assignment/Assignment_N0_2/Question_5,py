@@ -1,0 +1,9 @@
+#WAP to calculate selling price of book based on cast price and discount
+
+cost_price = float(input('Enter cost price:'))
+
+discount = float(input('Enter discount:'))
+
+selling_price = cost_price-discount
+
+print(selling_price)
