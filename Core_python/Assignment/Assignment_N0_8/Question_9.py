@@ -1,0 +1,15 @@
+#WAP to check if entered number is a palindrome or not 
+
+def ChkPalindrome(num):
+    temp = num
+    rev = 0
+    while temp>0:
+        d = temp % 10
+        rev = rev * 10+d
+        temp //=10
+    if num == rev:
+        print('The given number is palindrome.')
+    else:
+        print('The given number is not palindrome.')
+num = int(input('Enter the number:'))
+ChkPalindrome(num)
